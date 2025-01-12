@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+.top-bar {
+    background-color: #f86c4e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+}
+
+.brand-highlight {
+    color: #f86c4e;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a.active {
+    color: white;
+    background-color: #f86c4e;
+    border-radius: 5px;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.menu-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 14px;
+}
